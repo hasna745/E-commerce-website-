@@ -1,0 +1,55 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-container {
+    width: auto; /* Utilisation de la largeur automatique */
+    max-width: 300px; /* Largeur maximale pour éviter que les images ne deviennent trop grandes */
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product-container img {
+    width: 100%; /* Pour que l'image remplisse la largeur du conteneur */
+    height: auto; /* Ajuste la hauteur en conséquence */
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.more-info {
+    background-color: #28a745;
+    color: #fff;
+}
+
+
+footer {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 20px;
+    }
+    footer p {
+        font-size: 14px;
+        color: #888;
+    }
+
+   
+    
+
+

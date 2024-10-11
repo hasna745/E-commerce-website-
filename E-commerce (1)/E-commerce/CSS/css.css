@@ -1,0 +1,132 @@
+/* Styles CSS personnalisés */
+        /* Ajoutez vos styles personnalisés ici */
+        /* Par exemple : */
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: monospace;
+        }
+        ul {
+            list-style: none;
+            background: #22438C;
+        }
+        ul li {
+            display: inline-block;
+            position: relative;
+        }
+        ul li a {
+            display: block;
+            padding: 13px 17px;
+            color: #FFF;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+        }
+        ul li ul.dropdown li {
+            display: block;
+        }
+        ul li ul.dropdown {
+            width: 100%;
+            background: #22438C;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+        ul li a:hover {
+            background: #112C66;
+        }
+        ul li:hover ul.dropdown {
+            display: block;
+        }
+
+        #top-ec{
+            font-style: normal;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .oblique {
+            font-style: oblique;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-container {
+            width: auto;
+            max-width: 300px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .product-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-details {
+            margin-top: 10px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .add-to-cart {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .more-info {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+
+
+        .navbar {
+  background-color: #f8f9fa;
+  padding: 15px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}

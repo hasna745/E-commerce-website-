@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.contact-info {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #fff;
+}
+
+section p {
+    color: #ccc;
+}
+
+section#map {
+    padding: 0;
+}
+
+section#map h2 {
+    margin-top: 0;
+}
+
+#googleMap {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+section#livraison-rapide, section#points-fidelite-parrainage, section#vase {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+section#livraison-rapide h2, section#points-fidelite-parrainage h2, section#vase h2 {
+    color: #fff;
+}
+
+section#livraison-rapide p, section#points-fidelite-parrainage p, section#vase p {
+    color: #ccc;
+}
+
+.delivery-icon, .points-icon, .vase-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
